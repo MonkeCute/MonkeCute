@@ -1,4 +1,4 @@
-# 👋 Hey, já jsem MonkeCute
+# 👋 Hey, já jsem MonkeCute (Ondra)
 
 🎮 Game Creator  
 💻 Beginner Developer  
@@ -60,7 +60,7 @@
 
 ## 📫 Kontakt
 
-- 🧠 GitHub: **MonkeCute**
+- 🧠 GitHub: **Ondra/MonkeCute**
 - 💬 Discord: **zatím ne**
 
 ---
