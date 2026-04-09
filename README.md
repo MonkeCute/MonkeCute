@@ -10,7 +10,7 @@
 
 - 🐵 Přezdívka: **MonkeCute**
 - 🎂 Věk: **11–12**
-- 🌍 Lokace: **Europe**
+- 🌍 Lokace: **Europe**/**Česko**
 - 🎮 Zaměření: **Game development (hlavně Roblox)**
 - 📱 Platforma: **Mobile dev (Android)**
 - 🧪 Projekty: APK apps, prank apps, scripts
@@ -23,8 +23,8 @@
 |:-------------------|:-------------|
 | Roblox scripting   | 🔥🔥🔥        |
 | HTML / Markdown    | 🔥🔥🔥🔥      |
-| Android (AIDE)     | 🔥🔥         |
-| UI Design          | 🔥🔥🔥        |
+| Android      | 🔥🔥          |
+| UI Design          | 🔥            |
 | Game ideas         | 💀💀💀💀💀    |
 
 ---
@@ -38,14 +38,14 @@
 
 ---
 
-## 📊 Stats (fake ale cool 😎)
+## 📊 Stats
 
 | Stat            | Value        |
 |-----------------|--------------|
-| ☕ Energy        | ∞            |
-| 🧠 Ideas         | 9999+        |
-| 🐛 Bugs          | also 9999+ 💀 |
-| 🚀 Motivation    | MAX          |
+| ☕ Energy        | 50%         |
+| 🧠 Ideas         | 25%         |
+| 🐛 Bugs          | MAX         |
+| 🚀 Motivation    | 5%          |
 
 ---
 
@@ -53,7 +53,7 @@
 
 - 💀 Dělám věci, co někdy ani nevím jak fungujou
 - 🎮 Roblox je goat
-- 📱 Dělám dev věci jen na mobilu (yes, fakt)
+- 📱 Dělám dev věci pro Android
 - 😄 Markdown enjoyer
 
 ---
@@ -61,7 +61,7 @@
 ## 📫 Kontakt
 
 - 🧠 GitHub: **MonkeCute**
-- 💬 (sem si můžeš doplnit třeba Discord)
+- 💬 Discord: **zatím ne**
 
 ---
 
