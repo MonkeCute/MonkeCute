@@ -20,9 +20,9 @@ if (Notification.permission !== "granted") {
 
 function sendNotification(text) {
     if (Notification.permission === "granted") {
-        new Notification("SERVER MESSAGE", {
-            body: text,
-            icon: "https://cdn-icons-png.flaticon.com/512/4712/4712027.png"
+        new Notification("Notification!", {
+            body: text
+
         });
     }
 }
