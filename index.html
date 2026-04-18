@@ -1,57 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
-  <meta charset="UTF-8">
-  <title>Your Name</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e2e8f0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    .container {
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-    }
-
-    p {
-      color: #94a3b8;
-      margin-bottom: 20px;
-    }
-
-    a {
-      text-decoration: none;
-      color: white;
-      background: #3b82f6;
-      padding: 10px 20px;
-      border-radius: 8px;
-      transition: 0.3s;
-    }
-
-    a:hover {
-      background: #2563eb;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Server Console</title>
 </head>
+
 <body>
 
-  <div class="container">
-    <h1>Hello 👋</h1>
-    <p>Welcome to my website</p>
-    <a href="https://github.com/yourusername">My GitHub</a>
-  </div>
+<input id="inputBox" placeholder="Enter Anything">
+
+<script>
+const input = document.getElementById("inputBox");
+
+// 🔐 povolení notifikací (musí být vyžádáno)
+if (Notification.permission !== "granted") {
+    Notification.requestPermission();
+}
+
+function sendNotification(text) {
+    if (Notification.permission === "granted") {
+        new Notification("SERVER MESSAGE", {
+            body: text,
+            icon: "https://cdn-icons-png.flaticon.com/512/4712/4712027.png"
+        });
+    }
+}
+
+input.addEventListener("keydown", function(e) {
+    if (e.key === "Enter") {
+        let text = input.value.trim();
+        if (!text) return;
+
+        if (text.toLowerCase() === "artemis ii") {
+            sendNotification("Jé artemis ii");
+        } else {
+            sendNotification("hmm");
+        }
+
+        input.value = "";
+    }
+});
+</script>
 
 </body>
 </html>
