@@ -1,5 +1,6 @@
+<!-- -->
 ![Status](https://img.shields.io/badge/status-inactive-red)
-/*![Status](https://img.shields.io/badge/status-active-brightgreen)*/
+<!-- ![Status](https://img.shields.io/badge/status-active-brightgreen) -->
 
 # 👋 Hey, já jsem MonkeCute (Ondra)
 
